@@ -14,6 +14,7 @@ const Navbar = () => {
               {/* <a className="nav-link active" aria-current="page" href="#">About Me</a> */}
               <Link to="/" className="nav-link active" aria-current="page">Home</Link>
               <Link to="/about" className="nav-link active" aria-current="page">About</Link>
+              <Link to="/portfolio" className="nav-link active" aria-current="page">Portfolio</Link>
               <Link to="/contact" className="nav-link active" aria-current="page">Contact</Link>
               <Link to="/resume" className="nav-link active" aria-current="page">Resume</Link>
             </div>
