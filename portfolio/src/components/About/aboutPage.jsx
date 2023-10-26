@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from "react-router-dom";
- const {About} = () => {
+function AboutPage () {
     return (
         <div className="card">
         <div className="card-body">
@@ -15,6 +15,6 @@ import React from 'react';
     )
 }
 
-export default About; 
+export default AboutPage; 
 
 //add style elements like logos or lines, icons

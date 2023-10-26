@@ -3,7 +3,7 @@ import React from 'react';
 //at the bottom of the page with an open form to send a message 
 //have an icon for linked, github, and email  
 // email local_post_office
- const {Contact} = () => {
+ const Contact = () => {
     return (
         <div className="card">
             <div className="card-body">

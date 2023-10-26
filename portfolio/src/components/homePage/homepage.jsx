@@ -1,10 +1,10 @@
-import {About} from './components/aboutPage'
+import AboutPage from '../About/AboutPage'
 
 
-const homepage = () => {
+const Homepage = () => {
     return (
         <div>
-        < About />
+        < AboutPage />
         </div>
 
         // <footer>
@@ -12,4 +12,4 @@ const homepage = () => {
         // </footer>
     )
 }
-export default homepage 
+export default Homepage 

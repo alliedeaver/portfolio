@@ -1,11 +1,13 @@
 * {
-  background-color: rgb(199, 235, 243);
+  background-color: rgb(208, 227, 232);
   font-family: 'Playfair Display', serif;
   letter-spacing: .2rem;
 }
 
 .bio {
-  font-size: 16px;   
+  font-size: 16px; 
+  line-height: 2em;
+    
 }
 
 .about-me {
