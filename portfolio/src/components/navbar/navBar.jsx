@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Navbar = () => {
       return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
@@ -12,9 +12,8 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               {/* <a className="nav-link active" aria-current="page" href="#">About Me</a> */}
-              <Link to="/" className="nav-link active" aria-current="page">homePage</Link>
+              <Link to="/" className="nav-link active" aria-current="page">Home</Link>
               <Link to="/about" className="nav-link active" aria-current="page">About</Link>
-              <Link to="/portfolio" className="nav-link active" aria-current="page">Portfolio</Link>
               <Link to="/contact" className="nav-link active" aria-current="page">Contact</Link>
               <Link to="/resume" className="nav-link active" aria-current="page">Resume</Link>
             </div>
@@ -23,4 +22,4 @@ const Header = () => {
       </nav>
       );
 }
-export default Header;
+export default Navbar;

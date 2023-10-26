@@ -1,7 +1,15 @@
-export default function homePage() {
+import {About} from './components/aboutPage'
+
+
+const homepage = () => {
     return (
         <div>
-            <h3>Home</h3>
+        < About />
         </div>
+
+        // <footer>
+//add the contact card at the bottom 
+        // </footer>
     )
 }
+export default homepage 
