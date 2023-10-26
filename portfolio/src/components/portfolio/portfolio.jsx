@@ -4,6 +4,7 @@ import React from 'react'
 
 function Portfolio() {
   return (
+    <body>
     <div class="container text-center">
       <div class="col m-4 float-start">
         <div id="carouselExampleCaptions" className="carousel slide">
@@ -90,6 +91,7 @@ function Portfolio() {
         </div>
       </div>
     </div>
+    </body>
   )
 }
 
