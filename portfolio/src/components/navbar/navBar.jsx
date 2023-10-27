@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import backgroundPic from '../../assets/background.jpg'
+import backgroundPic from '../../assets/pic1.jpg'
 const NavBar = () => {
       return (
       <header>
-         {/* <img className='backgroundpic'
+         <img className='backgroundpic w-100 h-100 position-static  '
             src={backgroundPic}>
-          </img> */}
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+          </img>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
         
-        <div className="container-fluid">
+        <div className="container-fluid ">
           <a className="navbar-brand" href="#">Alexandria Deaver</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

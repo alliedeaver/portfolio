@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(208, 227, 232);
+  background-color: rgb(255, 255, 255);
   font-family: 'Playfair Display', serif;
   letter-spacing: .2rem;
 }
@@ -9,6 +9,14 @@
   line-height: 2em;
 
 }
+
+.navbar-brand {
+  /* flex: auto; */
+  justify-content: center;
+  align-items: center;
+  text-indent: 15em;
+}
+
 
 .about-me {
   font-size: 20px;

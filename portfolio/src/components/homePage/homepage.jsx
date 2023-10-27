@@ -4,7 +4,7 @@ import AboutPage from '../About/AboutPage'
 const Homepage = () => {
     return (
         <div>
-        < AboutPage />
+        Home
         </div>
 
         // <footer>
