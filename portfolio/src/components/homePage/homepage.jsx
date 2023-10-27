@@ -1,6 +1,5 @@
 import portfolioPic from '../../assets/portfoliopic.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaEnvelope, FaGithub, FaFile } from 'react-icons/fa'
 
 const Homepage = () => {
     return (
@@ -19,7 +18,9 @@ const Homepage = () => {
                 <a href='https://www.linkedin.com/in/alexandria-deaver-8437b5264/' target='blank' >
                     <FaLinkedin className='cursor-pointer text-black-50 ' size={50} />
                 </a>
-               
+                <a href='https://resume.io/r/IUJUxa1AW' target='blank' >
+                    <FaFile className='cursor-pointer text-black-50 ' size={50} />
+                </a>
             </div>
         </div>
     );
