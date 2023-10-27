@@ -3,8 +3,8 @@ import React from 'react';
 function AboutPage () {
     return (
         <div className="card">
-        <div className="card-body ">
-            <h2 className="about-me" >
+        <div className="card-body fixed-top mt-5 ">
+            <h2 className="about-me text-center" >
                 about me
             </h2>
             <h3 className="bio" >
