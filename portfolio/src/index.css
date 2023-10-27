@@ -7,11 +7,15 @@
 .bio {
   font-size: 16px; 
   line-height: 2em;
-    
+
 }
 
 .about-me {
   font-size: 20px;
   font-style: italic;
   margin: 1.5em;
+}
+.background {
+  max-width: fit-content;
+  max-height: 1vh;
 }

@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutPage from './components/About/AboutPage.jsx';
 import Portfolio from './components/portfolio/Portfolio.jsx';

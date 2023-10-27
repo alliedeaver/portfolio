@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-
+import backgroundPic from '../../assets/background.jpg'
 const NavBar = () => {
       return (
+      <header>
+         {/* <img className='backgroundpic'
+            src={backgroundPic}>
+          </img> */}
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        
         <div className="container-fluid">
           <a className="navbar-brand" href="#">Alexandria Deaver</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,6 +25,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+     </header>
       );
 }
 export default NavBar;
