@@ -4,13 +4,16 @@ import backgroundPic from '../../assets/pic1.jpg'
 const NavBar = () => {
       return (
       <header>
-         <img className='backgroundpic w-100 h-100 position-static'
+         <img className=' backgroundpic w-100 h-100 position-static'
             src={backgroundPic}>
           </img>
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         
         <div className="container-fluid">
+        <div className='offset-5'>
           <a className="navbar-brand" href="#">Alexandria Deaver</a>
+          </div>
+          <div className=''>
           <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -23,6 +26,7 @@ const NavBar = () => {
               <Link to="/contact" className="nav-link active" aria-current="page">Contact</Link>
             </div>
           </div>
+        </div>
         </div>
       </nav>
      </header>

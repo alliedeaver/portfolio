@@ -4,10 +4,11 @@ import { FaLinkedin, FaEnvelope, FaGithub, FaFile } from 'react-icons/fa'
 const Homepage = () => {
     return (
         <div className='card fixed-bottom mb-5 w-50 offset-3 p-4 center'>
-            <img className='backgroundpic w-100 h-100 position-static p-3'
-                src={portfolioPic}
-                alt='Portfolio'
-            />
+            <div>
+                <img className=' backgroundpic w-75 h-75 position-static  p-3'
+                    src={portfolioPic}
+                    alt='Portfolio' />
+            </div>
             <div className='d-flex justify-content-evenly' >
                 <a href='mailto:adeav97@gmail.com' target="blank" > <FaEnvelope className='cursor-pointer text-black-50' size={50} />
                 </a>
