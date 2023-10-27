@@ -4,14 +4,14 @@ import backgroundPic from '../../assets/pic1.jpg'
 const NavBar = () => {
       return (
       <header>
-         <img className='backgroundpic w-100 h-100 position-static  '
+         <img className='backgroundpic w-100 h-100 position-static'
             src={backgroundPic}>
           </img>
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
         
         <div className="container-fluid ">
           <a className="navbar-brand" href="#">Alexandria Deaver</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">

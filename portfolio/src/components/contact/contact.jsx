@@ -1,12 +1,11 @@
 import React from 'react';
 // import { Link } from "react-router-dom";
 //at the bottom of the page with an open form to send a message 
-//have an icon for linked, github, and email  
-// email local_post_office
+
  const Contact = () => {
     return (
-        <div className="card">
-            <div className="card-body">
+        <div className="card fixed-bottom mb-5 w-50 offset-3 p-5">
+            
                 <h3>
                     <p> Contact:
                         Email: adeav97@gmail.com</p>
@@ -14,8 +13,7 @@ import React from 'react';
                         linkedIn: 
                     </p>
                 </h3>
-            </div>
-
+           
         </div>
     )
 }

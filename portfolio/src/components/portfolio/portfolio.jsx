@@ -6,7 +6,7 @@ import screenshot from '../../assets/screenshot.png'
 function Portfolio() {
 
   return (
-    <body>
+    <body className="card fixed-bottom mb-5 w-50 offset-3 p-5" >
       <Carousel>
         <Carousel.Item>
           <img
