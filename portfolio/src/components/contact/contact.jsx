@@ -1,10 +1,14 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 // import { Link } from "react-router-dom";
 //at the bottom of the page with an open form to send a message 
 
 const Contact = () => {
   return (
     <div className="card fixed-bottom mb-5 w-50 offset-3 p-5">
+      <h1 className='contact center mb-4'>
+        contact me
+      </h1>
          <div class="row">
         <form class="col s12">
           <div class="row">
@@ -36,11 +40,12 @@ const Contact = () => {
             
               <div class="input-field inline">
                 <input id="email_inline" type="email" class="validate"/>
-                  <label for="email_inline">Email</label>
+                  <label for="email_inline">Subject</label>
                   <span class="helper-text" data-error="wrong" data-success="right"></span>
               </div>
             </div>
           </div>
+          <Button variant='secondary' type="submit">Submit</Button>
         </form>
         </div>
       </div>

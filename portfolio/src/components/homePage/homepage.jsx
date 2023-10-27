@@ -10,7 +10,6 @@ const Homepage = () => {
             />
             <div className='d-flex justify-content-evenly' >
                 <a href='mailto:adeav97@gmail.com' target="blank" > <FaEnvelope className='cursor-pointer text-black-50' size={50} />
-                    {/* <i className="medium material-icons">local_post_office</i> */}
                 </a>
                 <a href='https://github.com/alliedeaver' target='blank' >
                     <FaGithub className='cursor-pointer text-black-50 ' size={50} />
@@ -27,5 +26,3 @@ const Homepage = () => {
 };
 export default Homepage;
 
-//have an icon for linked, github, and email  
-// email local_post_office
