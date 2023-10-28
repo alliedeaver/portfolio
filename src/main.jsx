@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import AboutPage from './components/About/AboutPage.jsx';
 import Portfolio from './components/portfolio/Portfolio.jsx';
 import Contact from './components/contact/Contact.jsx';
-import Homepage from './components/homePage/Homepage.jsx';
+import Homepage from './components/homePage/homepage.jsx';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
