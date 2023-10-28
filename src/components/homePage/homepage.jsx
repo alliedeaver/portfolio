@@ -4,7 +4,7 @@ import { FaLinkedin, FaEnvelope, FaGithub, FaFile } from 'react-icons/fa'
 const Homepage = () => {
     return (
         <div className='card fixed-bottom mb-5 w-50 offset-3 p-2 center'>
-            <h2 className='contact fst-italic mb-1 text-center mt-3' >
+            <h2 className='contact fst-italic mb-1 mt-3' >
         home
              </h2>
             <div className=" portfolioPic">

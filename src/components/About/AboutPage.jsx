@@ -4,7 +4,7 @@ function AboutPage () {
     return (
         <div className="card fixed-bottom mb-5 w-50 offset-3 p-5">
     
-            <h2 className="about-me text-center" >
+            <h2 className="about-me " >
                 about me
             </h2>
             <h3 className="bio" >

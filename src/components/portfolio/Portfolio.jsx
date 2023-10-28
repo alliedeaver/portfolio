@@ -4,7 +4,9 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import girlsdesk from '../../assets/girlsdesk.png'
 import jateService from '../../assets/jate-service.png'
-
+import pokematch from '../../assets/HomeSS.png'
+import  scheduler  from '../../assets/scheduler.png'
+import  weatherApp  from '../../assets/weatherapp.png'
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -13,14 +15,16 @@ function ControlledCarousel() {
     setIndex(selectedIndex);
   };
   return (
-    <div className=" card fixed-bottom mt-2 mb-5 w-50 offset-3 p-5" >
+    <div className=" card fixed-bottom mt-2 mb-5 w-50 offset-3 p-5  fst-italic mb-4 " >
+      <h3>
+        portfolio
+      </h3>
         <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img className='image'
             src={girlsdesk} text="First slide" />
           <Carousel.Caption className='fixed bottom'>
-            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Help Desk Ticket: Front and Back End Project</h3>
-    
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Help Desk Ticket: Front and Back End </h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -28,24 +32,31 @@ function ControlledCarousel() {
           <img className='image'
             src={jateService} text="First slide" />
           <Carousel.Caption className='fixed bottom'>
-            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Jate Text Editor: Front and Back End Prokect</h3>
-    
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Jate Text Editor: Front and Back End </h3>
           </Carousel.Caption>
         </Carousel.Item>
+        
         <Carousel.Item>
-          {/* <ExampleCarouselImage text="Second slide" /> */}
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img className='image'
+            src={pokematch} text="First slide" />
+          <Carousel.Caption className='fixed bottom'>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Pokématch: Front and Back End </h3>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
-          {/* <ExampleCarouselImage text="Third slide" /> */}
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+          <img className='image'
+            src={scheduler} text="First slide" />
+          <Carousel.Caption className='fixed bottom'>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Work Day Scheduler: Front and Back End </h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className='image'
+            src={weatherApp} text="First slide" />
+          <Carousel.Caption className='fixed bottom'>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Weather Application: Front and Back End </h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
