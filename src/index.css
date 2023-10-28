@@ -31,3 +31,13 @@
 .contact {
   font-style: italic;
 }
+
+.image {
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.titlePic1 {
+  font-size: 14px;
+}
+ 

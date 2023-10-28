@@ -1,18 +1,24 @@
 // here i want two carousel cards going through pictures of my projects. 
+import { useState } from 'react';
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import clientView from '../../assets/ClientView.png'
-function Portfolio() {
+import girlsdesk from '../../assets/girlsdesk.png'
 
+function ControlledCarousel() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
   return (
-    <div className="card fixed-bottom mb-5 w-50 offset-3 p-5" >
-      <Carousel>
+    <div className=" card fixed-bottom mb-5 w-50 offset-3 p-5" >
+        <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          <img className='w-40 h-25'
-            src={clientView} text="First slide"/>
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <img className='image'
+            src={girlsdesk} text="First slide" />
+          <Carousel.Caption className='fixed bottom'>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Help Desk Ticket: Front and Back End Project</h3>
+            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -36,5 +42,5 @@ function Portfolio() {
   )
 }
 
-export default Portfolio
+export default ControlledCarousel
 
