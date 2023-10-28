@@ -8,7 +8,7 @@ const Homepage = () => {
         home
              </h2>
             <div className=" portfolioPic">
-                <img className='backgroundpic w-50 m-5 ' 
+                <img className='backgroundpic w-50 m-5'
                     src={portfolioPic}
                     alt='Portfolio' />
             </div>
@@ -19,13 +19,13 @@ const Homepage = () => {
                 </a>
                 {/* </button>  */}
                 <a href='https://github.com/alliedeaver' target='blank' >
-                    <FaGithub className='cursor-pointer text-black-50 ' size={50} />
+                    <FaGithub className='cursor-pointer text-black-50 ' size={50} title="Github" />
                 </a>
                 <a href='https://www.linkedin.com/in/alexandria-deaver-8437b5264/' target='blank' >
-                    <FaLinkedin className='cursor-pointer text-black-50 ' size={50} />
+                    <FaLinkedin className='cursor-pointer text-black-50 ' size={50} title="LinkedIn" />
                 </a>
                 <a href='https://resume.io/r/IUJUxa1AW' target='blank' >
-                    <FaFile className='cursor-pointer text-black-50 ' size={50} />
+                    <FaFile className='cursor-pointer text-black-50 ' size={50} title="Resume" />
                 </a>
             </div>
         </div>
