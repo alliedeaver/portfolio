@@ -17,7 +17,20 @@ Currently, two official plugins are available:
 
 
 ## Links 
-
+https://github.com/alliedeaver/portfolio
 
 ## Screenshots
+<img width="1300" alt="Screenshot 2023-10-28 at 1 17 43 AM" src="https://github.com/alliedeaver/portfolio/assets/141384805/a79c1a12-f535-46fc-8b03-bcc81b48a248">
+
+<img width="1300" alt="Screenshot 2023-10-28 at 1 17 53 AM" src="https://github.com/alliedeaver/portfolio/assets/141384805/02101f1c-0a8a-4bf0-87ca-9289b2ab92dd">
+
+<img width="1275" alt="Screenshot 2023-10-28 at 1 18 02 AM" src="https://github.com/alliedeaver/portfolio/assets/141384805/908b8f65-d9e0-46bc-91ea-4909c4079169">
+
+<img width="1302" alt="Screenshot 2023-10-28 at 1 18 11 AM" src="https://github.com/alliedeaver/portfolio/assets/141384805/57f35cbc-ae7e-421e-8ad9-7f2eb71edc35">
+
+
+
+
+
+
 
