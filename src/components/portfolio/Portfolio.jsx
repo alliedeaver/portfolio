@@ -24,7 +24,9 @@ function ControlledCarousel() {
           <img className='image'
             src={girlsdesk} text="First slide" />
           <Carousel.Caption className='fixed bottom'>
-            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Help Desk Ticket: Front and Back End </h3>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>
+            <a href='https://github.com/Vannasaur/girls-help-desk' target='blank'>Help Desk Ticket: Front and Back End </a>
+             </h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -32,7 +34,8 @@ function ControlledCarousel() {
           <img className='image'
             src={jateService} text="First slide" />
           <Carousel.Caption className='fixed bottom'>
-            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Jate Text Editor: Front and Back End </h3>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'><a href='https://tranquil-lake-11944-986a08e2cfd8.herokuapp.com/' target='blank'>Jate Text Editor: Front and Back End </a> 
+            </h3>
           </Carousel.Caption>
         </Carousel.Item>
         
@@ -40,7 +43,8 @@ function ControlledCarousel() {
           <img className='image'
             src={pokematch} text="First slide" />
           <Carousel.Caption className='fixed bottom'>
-            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Pokématch: Front and Back End </h3>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'><a href='https://github.com/KrystianKowalak/poke-match#deployed-website-link' target='blank'> Pokématch: Front and Back End </a>
+            </h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -48,7 +52,8 @@ function ControlledCarousel() {
           <img className='image'
             src={scheduler} text="First slide" />
           <Carousel.Caption className='fixed bottom'>
-            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Work Day Scheduler: Front and Back End </h3>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'><a href='https://alliedeaver.github.io/calendar-challenge-5/' target='blank'> Work Day Scheduler: Front and Back End</a> 
+            </h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -56,7 +61,9 @@ function ControlledCarousel() {
           <img className='image'
             src={weatherApp} text="First slide" />
           <Carousel.Caption className='fixed bottom'>
-            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Weather Application: Front and Back End </h3>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>
+            <a href='https://github.com/alliedeaver/Check-the-Weather' target='blank'>Weather Application: Front and Back End </a> 
+              </h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
