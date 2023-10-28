@@ -19,6 +19,8 @@ Currently, two official plugins are available:
 ## Links 
 https://github.com/alliedeaver/portfolio
 
+https://eclectic-rugelach-23c397.netlify.app/
+
 ## Screenshots
 <img width="1300" alt="Screenshot 2023-10-28 at 1 17 43 AM" src="https://github.com/alliedeaver/portfolio/assets/141384805/a79c1a12-f535-46fc-8b03-bcc81b48a248">
 
