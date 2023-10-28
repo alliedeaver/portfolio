@@ -3,9 +3,9 @@ import { FaLinkedin, FaEnvelope, FaGithub, FaFile } from 'react-icons/fa'
 
 const Homepage = () => {
     return (
-        <div className='card fixed-bottom mb-5 w-50 offset-3 p-4 center'>
+        <div className='card fixed-bottom mb-4 w-50 offset-3 p-4 center'>
             <div>
-                <img className=' backgroundpic w-75 h-75 position-static  p-3'
+                <img className=' backgroundpic w-75 h-75 position-static m-5 p-1'
                     src={portfolioPic}
                     alt='Portfolio' />
             </div>

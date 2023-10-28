@@ -1,15 +1,15 @@
 // here i want two carousel cards going through pictures of my projects. 
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import clientview from '../../assets/screenshot.png'
+import clientView from '../../assets/ClientView.png'
 function Portfolio() {
 
   return (
     <div className="card fixed-bottom mb-5 w-50 offset-3 p-5" >
       <Carousel>
         <Carousel.Item>
-          <img
-            src={"https://placehold.co/600x400"} text="First slide"/>
+          <img className='w-40 h-25'
+            src={clientView} text="First slide"/>
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
