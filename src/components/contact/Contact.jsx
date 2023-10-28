@@ -10,9 +10,9 @@ function GridComplexExample() {
   return (
     <Form action="https://getform.io/f/eda533af-a77b-475a-98bb-b8b2b66e4a16" method="POST"  className='card fixed-bottom mb-5 w-50 offset-3 p-5'>
       <Row className="mb-3">
-      <h1 className='contact fst-italic mb-4 center' >
+      <h2 className='contact fst-italic mb-4 center' >
         contact me
-     </h1>
+     </h2>
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>First Name</Form.Label>
           <Form.Control type="text" placeholder="" />
