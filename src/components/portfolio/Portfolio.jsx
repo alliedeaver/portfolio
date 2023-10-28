@@ -3,6 +3,8 @@ import { useState } from 'react';
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import girlsdesk from '../../assets/girlsdesk.png'
+import jateService from '../../assets/jate-service.png'
+
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -11,14 +13,23 @@ function ControlledCarousel() {
     setIndex(selectedIndex);
   };
   return (
-    <div className=" card fixed-bottom mb-5 w-50 offset-3 p-5" >
+    <div className=" card fixed-bottom mt-2 mb-5 w-50 offset-3 p-5" >
         <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img className='image'
             src={girlsdesk} text="First slide" />
           <Carousel.Caption className='fixed bottom'>
             <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Help Desk Ticket: Front and Back End Project</h3>
-            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+    
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className='image'
+            src={jateService} text="First slide" />
+          <Carousel.Caption className='fixed bottom'>
+            <h3 className='titlePic1 text-dark fw-bold w-100 h-20'>Jate Text Editor: Front and Back End Prokect</h3>
+    
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
